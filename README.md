@@ -1,3 +1,16 @@
+# Seth's React ToDo List Tutorial
+
+Seth's Custom ToDo List is courtesy of the following tutorial on YouTube: React JS Crash Course - https://youtu.be/sBws8MSXN7A .
+
+Tutorial has been followed and modified to suit needs of the repo owner (Seth).  For learning purposes and React exercise whilst learning @ Craft Academy.
+
+## Resources
+
+React JS Crash C
+ourse - 2019
+https://youtu.be/sBws8MSXN7A
+Tutorial Courtesy of Traversy Media @ Youtube.  
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
