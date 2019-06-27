@@ -38,10 +38,8 @@ onChange = (e) => this.setState({ [e.target.name]:
 }
 
 // PropTypes
-Todos.propTypes = {
-    todos: PropTypes.array.isRequired,
-    toggleComplete: PropTypes.func.isRequired,
-    deleteListItem: PropTypes.func.isRequired
+AddTodo.propTypes = {
+    addTodo: PropTypes.func.isRequired
   }  
 
 export default AddTodo
