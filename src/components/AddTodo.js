@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 export class AddTodo extends Component {
     state = {
@@ -35,5 +36,12 @@ onChange = (e) => this.setState({ [e.target.name]:
         )
     }
 }
+
+// PropTypes
+Todos.propTypes = {
+    todos: PropTypes.array.isRequired,
+    toggleComplete: PropTypes.func.isRequired,
+    deleteListItem: PropTypes.func.isRequired
+  }  
 
 export default AddTodo
